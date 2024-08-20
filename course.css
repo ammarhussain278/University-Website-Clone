@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/course.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+
+}
+
+.header {
+    height: 20%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    margin: 15px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+.header img {
+    height: 80px;
+    width: 150px;
+    margin-right: 50%;
+    background-position: center;
+    background-size: cover;
+    margin-top: 2%;
+    border-radius: 10px;
+
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: blue;
+    transition: 0.5s;
+}
+
+
+
+.content h1 {
+    margin-top: 10%;
+
+    text-align: center;
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.content p {
+    margin: 10px 0 40px;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.content2 {
+
+    width: 50%;
+
+    margin: auto;
+    text-align: center;
+    padding: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+.content2 h1 {
+    font-size: 36px;
+    font: weight 600px;
+    ;
+}
+
+.content2 p {
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+
+}
+
+
+.cards {
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+
+}
+
+.course-col {
+    margin-right: 2%;
+    margin-left: 2%;
+    background-color: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.course-col h3 {
+    margin-bottom: 2%;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.course-col:hover {
+    box-shadow: 0, 0, 20px, 0 rgba(0, 0, 0, 0.2);
+}
+
+.facilities {
+    margin-top: 7%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+.facilities h3 {
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.facilities p {
+    margin-top: 15px;
+    font-size: large;
+    margin-bottom: 3%;
+}
+
+.row {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.facilities-col img {
+    width: 70%;
+    border-radius: 10px;
+    margin-left: 19%;
+    margin-top: 5%;
+}
+
+.facilities-col h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.facilities-col p {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-left: 7%;
+}
+
+.footer {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 3%;
+    background-color: lightgrey;
+    border-radius: 20px;
+}
+
+footer h4 {
+    margin-bottom: 2%;
+    font-size: larger;
+}
+
+footer p {
+    font-weight: 600;
+}
+
+footer h4:hover {
+    color: blue;
+}
